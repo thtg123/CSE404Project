@@ -58,3 +58,72 @@ Real: d  Pred:  d
 Real: G  Pred:  G
 Real: T  Pred:  T
 ```
+```
+PS C:\Users\muiph\OneDrive\Documents\CSE404Project> python trainCON2.py
+Shape of X [N, C, H, W]: torch.Size([32, 3, 900, 1200])
+Shape of y: torch.Size([32]) torch.int64
+Using cpu device
+NeuralNetwork(
+  (flatten): Flatten(start_dim=1, end_dim=-1)
+  (conv_relu_stack): Sequential(
+    (0): MaxPool2d(kernel_size=16, stride=16, padding=0, dilation=1, ceil_mode=False)
+    (1): Conv2d(3, 32, kernel_size=(3, 3), stride=(1, 1), padding=(3, 3))
+    (2): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1), padding=(3, 3))
+    (3): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (4): Conv2d(64, 128, kernel_size=(3, 3), stride=(1, 1), padding=(3, 3))
+    (5): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (6): Conv2d(128, 256, kernel_size=(3, 3), stride=(1, 1), padding=(3, 3))
+    (7): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (8): Conv2d(256, 512, kernel_size=(3, 3), stride=(1, 1), padding=(3, 3))
+    (9): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+    (10): Conv2d(512, 62, kernel_size=(3, 3), stride=(1, 1))
+  )
+  (linear): Linear(in_features=1860, out_features=62, bias=True)
+)
+Epoch 1
+-------------------------------
+loss: 4.129909  [    0/ 2728]
+Test Error: 
+ Accuracy: 2.6%, Avg loss: 4.125794
+
+Epoch 2
+-------------------------------
+loss: 4.125782  [    0/ 2728]
+Test Error: 
+ Accuracy: 2.6%, Avg loss: 4.124796
+
+Epoch 3
+-------------------------------
+loss: 4.121610  [    0/ 2728]
+Test Error: 
+ Accuracy: 2.6%, Avg loss: 4.124934
+
+Epoch 4
+-------------------------------
+loss: 4.117387  [    0/ 2728]
+Test Error: 
+ Accuracy: 2.6%, Avg loss: 4.126634
+
+Epoch 5
+-------------------------------
+loss: 4.115981  [    0/ 2728]
+Test Error: 
+ Accuracy: 2.6%, Avg loss: 4.127449
+
+Epoch 6
+-------------------------------
+loss: 4.116341  [    0/ 2728]
+Test Error: 
+ Accuracy: 2.6%, Avg loss: 4.127278
+
+Epoch 7
+
+Epoch 10
+-------------------------------
+loss: 4.113594  [    0/ 2728]
+Test Error: 
+ Accuracy: 2.6%, Avg loss: 4.121228 
+
+Done!
+PS C:\Users\muiph\OneDrive\Documents\CSE404Project> 
+```
