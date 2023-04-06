@@ -112,6 +112,48 @@ Test Error:
 
 Epoch 6
 -------------------------------
+
+Random Forest Evaluation:
+Best performance achieved with an nEstimator value of 49, roughly sample sata size divided by 62
+accuracy:  0.2785923753665689
+Forest Random_predictions:  ['W' 'Q' 'M' 'C' 'l' 'e' 'W' '1' 'A' 'j' 's' 'S' 'k' '9' 'H' 'L' 'x' 'p'
+ '6' 'H' 'T' 'h' 'Q' '5' 'L' 'u' 's' 'i' 'v' 'S' 'i' 'K' 'N' 'L' 'S' '6'
+ 'a' 'V' 'C' 'X' '3' 'M' '9' 'u' 'C' 'k' 'N' '2' 's' 'V' '6' 'O' 'I' 'j'
+ '7' 'S' 'w' 'N' 'a' 'Q' 'm' 'B' '2' '2' 'k' 'O' '3' 'S' 'e' 'y' '7' 'h'
+ 'k' 'L' 'P' 'Y' 'C' 'j' '8' 'd' '8' 'c' 'l' 'o' 'H' 'Y' 'B' 'u' 'c' '1'
+ 'M' '4' 'W' 'i' 'V' 'T' 'G' 'L' 'M' 'v' 'C' 'g' '3' 'L' 'F' '2' '5' 'G'
+ 'i' 'l' 'G' 'L' 'b' 'g' 'E' 'r' 'h' 'S' 'n' 'u' 'z' 't' 'N' 'l' 'b' '6'
+ 'n' '5' 'x' 'L' 'o' 's' 'V' 'F' 'x' 'v' 'H' 's' 'L' 'w' 'O' 'r' 'q' 'N'
+ 'g' 'P' 'E' 'T' 'y' 'p' 'k' 'G' 'q' 'T' 'k' 'Y' 'x' 'R' 'L' 'N' 'h' 'w'
+ 'E' '6' '0' 'l' 'd' 'v' '4' 'E' '4' 't' 'L' 'w' 'b' 'q' 'G' 'P' 'Q' 'B'
+ 'N' '3' 'H' 'w' 'e' 'k' 'n' 'y' '2' 'N' 'Q' 'c' 'K' 'M' 'D' 'w' 'V' 'i'
+ 'R' 'J' 'V' 'Z' 'j' '6' 'm' 'J' 'L' '4' 'd' 'C' '6' 'R' 'o' '0' 'E' 'P'
+ 'O' '9' 'h' 'p' 'e' 'e' 'h' 'C' 't' 'K' '3' 'H' 'F' 'G' 'r' 'M' 'V' 'R'
+ 's' 'A' 'v' 'n' 'J' 'E' 'r' 'u' '8' 'L' 'O' 'X' 'x' 'V' '4' 'x' '0' 'o'
+ '6' 'r' 'V' '8' 'y' 'u' 'B' 'o' 'R' 'R' '1' 'y' '2' 'G' 'I' 'b' 'd' 'Z'
+ 'q' 'E' 'p' 'O' 'C' 'c' 'i' 'w' 'I' 'H' 'D' '1' 'C' 'n' 'L' 't' '4' '8'
+ 'w' 'E' '4' '8' 'S' 'x' 'S' 's' 'H' 'U' 'r' 'e' 'y' 'n' 'd' 's' '4' 'I'
+ 'v' 'w' '3' '3' 's' 'm' '1' 'e' 't' 'p' '2' 'P' 'l' 'b' 'M' 'r' 'D' 'U'
+ 'h' 'p' 'n' 'F' 'v' 'J' '7' 'O' 'P' 'r' 'H' 'a' 'I' 'v' 'X' '3' '0' 'V'
+ 'X' 'q' 'D' '6' 'R' 'F' 'n' 'j' 'V' '9' '0' 'W' 'r' 'k' 'q' 'w' 'Q' 'U'
+ '9' 'P' 'P' 'T' 'F' 'C' 'k' 'r' '2' 'i' 'T' 'u' 'H' 'r' 'm' 'O' 'K' 'j'
+ '2' 'G' '8' 'p' 'j' '1' 'i' 'd' 'y' 'h' 'A' 't' 'V' 'E' 'O' 'd' 'P' 'T'
+ 'k' 'p' 'h' 's' 'F' 'l' 'Z' 'i' 'S' 'A' '3' 'G' 'I' 'w' 'Y' 'n' 'E' 'b'
+ 'K' '2' 'l' '7' 'F' 'V' '8' 'o' 'Y' 'K' 's' 'C' '0' 'R' 'T' 'b' 'f' '5'
+ 'h' 'b' 'K' 'e' 'N' 'V' '6' 'T' 'q' '4' 'U' '7' 's' 'U' 'e' 'v' '2' '6'
+ 'N' '1' 'M' 'f' 'r' 'B' 'q' 'D' 'f' '8' 'H' 'W' 'j' 'F' 'B' 'z' 't' 'n'
+ 'F' '9' 's' 'E' 'j' 'g' 'k' 'c' 'P' 'w' 'r' 'h' 'u' 'm' 'A' 'y' 'W' 'o'
+ 'S' '8' 'k' 'P' 'A' 'Z' '9' 'a' 'q' 'R' 'E' 'M' 'w' 'd' 'Y' '4' 'T' 'L'
+ 'S' '8' 'M' 'k' '7' 'S' 'I' 'O' 'x' '8' 'c' '5' 'w' '7' '3' 'p' 'T' 'd'
+ 'w' '9' 'K' 'O' 'n' '5' 'D' 'Q' 'x' '1' 'K' 'u' 'Q' '7' 'I' 'V' 'P' '1'
+ 'W' 'N' 'N' 'j' '8' 'K' '4' 'Z' 'F' 'X' 'E' 'd' 'a' 'T' '6' 'v' 'u' '4'
+ 'L' '3' '2' 'X' 'G' 'a' 'N' 'o' 'a' 'Y' 'M' 'u' 'e' '4' 'M' 's' 'N' 'R'
+ 'j' 'T' 'M' 'N' 'O' 'B' 'R' 'O' 'f' 'j' 'g' 'j' 'A' 'e' 'E' 'o' '1' '2'
+ '0' 'y' 'U' 'S' 'P' 'b' 'V' 'V' 'N' 'x' 'R' 'Q' 'd' 'H' 's' 'i' 'V' 'c'
+ 'T' 'N' 'i' 'A' 'e' 'L' 'F' 'o' 'g' 'B' 'Y' 'b' 'L' 'z' 'a' 'M' 'V' '1'
+ 'V' 'Z' 'k' 'u' 's' 'i' 'H' 'y' 'Y' 'a' 'u' 'S' 'x' 'L' 'y' 'n' 'B' 'c'
+ '2' 'r' 'a' 'W' 'Y' 'y' 'u' 'j' '0' '2' 'b' 'A' 'Q' 'd' 'B' 'Q' '6' 'W'
+ 'B' 'e' '7' '2' 'm' 'f' 'v' 'V' 'C' 'w' 'x' 'q' 'M' '6' 'e' 'u']
 loss: 4.116341  [    0/ 2728]
 Test Error: 
  Accuracy: 2.6%, Avg loss: 4.127278
